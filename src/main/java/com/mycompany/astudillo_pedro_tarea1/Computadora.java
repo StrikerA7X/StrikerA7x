@@ -20,14 +20,14 @@ public class Computadora {
     public static void main(String [] args){ 
         Computadora computadora1 = new Computadora();
         
-        computadora1.color = "negro";
+        computadora1.color = "Negro";
         computadora1.marca= "Asus";
         computadora1.espacio = 500;
         computadora1.ram = 16; 
         
         System.out.println("El color de la computadora es: "+computadora1.color);
         System.out.println("La marca de la computadora es: "+computadora1.marca);        
-        System.out.println("El espacio de la computadora es: "+computadora1.espacio);
+        System.out.println("El espacio de la computadora es de: "+computadora1.espacio);
         System.out.println("La ram de la computadora es de: "+computadora1.ram);
     }
 }
